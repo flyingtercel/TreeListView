@@ -31,8 +31,6 @@ public class TreeViewAdapter<T> extends TreeListViewAdapter {
         } catch (IllegalAccessException e) {
             e.getMessage();
         }
-
-
     }
     @Override
     public View getConvertView(Node node, final int postion, View convertView, ViewGroup parent) {
