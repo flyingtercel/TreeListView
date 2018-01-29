@@ -2,14 +2,15 @@
 使用ListView实现树节点视图
 
 ![没有展开样式](https://github.com/flyingtercel/TreeListView/blob/master/app/src/main/res/mipmap-xhdpi/s1.png)   </br>
-![展开样式](https://github.com/flyingtercel/TreeListView/blob/master/app/src/main/res/mipmap-xhdpi/s2.png)
+![展开样式](https://github.com/flyingtercel/TreeListView/blob/master/app/src/main/res/mipmap-xhdpi/s2.png)    </br>
 ```
- 我们在使用的时候，首先创建一个适配器，去继承TreeListViewAdapter，并重写里面的方法。
+ 我们在使用的时候，首先创建一个适配器，去继承TreeListViewAdapter，并重写里面的方法
 ```
- #### 用户在加载数据的时候必须调用的方法，
- ```
+#### 用户在加载数据的时候必须调用的方法
+```
 public void initData(List<T> datas,int defaultExpandLevel)
-#### 加载数据后跟新适配器
+```
+####  加载数据后跟新适配器
 ```
 initData(datas,defaultLevel);
 //跟新适配器方法
