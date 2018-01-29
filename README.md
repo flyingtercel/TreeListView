@@ -1,5 +1,8 @@
 # TreeListView
 使用ListView实现树节点视图
+
+![没有展开样式](https://github.com/flyingtercel/TreeListView/blob/master/app/src/main/res/mipmap-xhdpi/s1.png)   </br>
+![展开样式](https://github.com/flyingtercel/TreeListView/blob/master/app/src/main/res/mipmap-xhdpi/s2.png)
 ```
  我们在使用的时候，首先创建一个适配器，去继承TreeListViewAdapter，并重写里面的方法。
 ```
